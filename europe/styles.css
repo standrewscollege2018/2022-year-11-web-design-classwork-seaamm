@@ -14,13 +14,24 @@ h1 {
   font-family: Times;
 }
 p {
-
+  margin: 10px, 0px, 10px, 0px
 }
 ul {
   margin-left: 30px;
 }
 ol {
   margin-left: 30px;
+}
+/* Captions for photos */
+
+/* Classes are rules that can be aoolied to any tag.
+They muat start with a full-stop */
+.caption {
+  color: rgba(214, 300, 214, 0.5);
+  font-style: oblique;
+  margin-bottom: 25px
+
+
 }
 a:link {
   color: rgb(255, 120, 0);
@@ -31,3 +42,4 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
