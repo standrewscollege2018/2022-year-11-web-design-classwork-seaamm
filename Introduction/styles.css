@@ -9,9 +9,10 @@ body {
   color: white;
 }
 h1 {
-  color: rgba(255, 255, 0);
+  color: #D1345B;
   margin-bottom: 15px;
   font-family: Times;
+
 }
 p {
 
@@ -31,3 +32,26 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+}
+.firstdiv {
+  size 50px;
+  background-color: #34D1BF;
+}
+
+.seconddiv {
+  size 30px;
+  background-color: #3454D1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.logo {
+
+}
+
+.links {
+  text-decoration: underline;
+}
