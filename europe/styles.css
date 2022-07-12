@@ -13,8 +13,10 @@ h1 {
   margin-bottom: 15px;
   font-family: Moderna, MuseoModerno;
   text-align: center;
+
 }
 h2 {
+  margin-top: 10px;
   margin-bottom: 15px;
 }
 p {
@@ -35,8 +37,6 @@ They muat start with a full-stop */
   color: rgba(214, 300, 214, 0.5);
   font-style: oblique;
   margin-bottom: 25px
-
-
 }
 a:link {
   color: rgb(255, 120, 0);
@@ -63,9 +63,11 @@ a:hover {
   grid-gap: 20px;
 }
 .card {
-  border: white 2px solid;
+  border: skyblue 2px solid;
   border-radius: 25px;
   overflow: hidden;
+  background-color: skyblue;
+  color: white;
 }
 .card img {
   max-width: 100%;
@@ -77,3 +79,27 @@ a:hover {
 .card p {
   margin-left: 5px;
   margin-bottom: 15px;
+}
+@media only screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .overview {
+    border: white 1px solid;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+}
+.italyContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.romeContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.romeTitle {
+  text-align: center;
+}
